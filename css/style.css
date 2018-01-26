@@ -8,27 +8,46 @@ body {
     /* background-size: cover; */
 }
 
-h1,h2,h3{
-    font-family: "Tangerine", Georgia;
-    font-size: 200%;
+.menu{
+    font-family: Dosis;
+    text-align: center;
+    display: block;   
 }
 
-h3{
+section h1,h2,h3{
+    font-family: "Tangerine", Georgia;
+    font-size: 200%;
+    text-align: center;
+}
+
+h3, .media{
     font-family: "Dosis", sans-serif;
     font-weight: bolder;
     /* font-style: Regular; */
     color: red;
 }
 
-a{
-    font-family: "Dosis", sans-serif;
-}
-
-.yusuf{
+/* li a{ 
+    text-align: center;
+    float: left;
+    display: inline;
+    color: rgb(5, 105, 105);
+    padding: 16px;
+    text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
+}*/
+
+.media{
+    text-align: center;
+    font-size: 125%;
 }
 
-.biyu{
-    font-weight: 900; /* this seems bolder*/
-    /* font-weight: bolder; because this doesnt work */
+figcaption{
+    color: brown;
+}
+
+p{
+    text-align: center;
+    text-align: justify;
 }
