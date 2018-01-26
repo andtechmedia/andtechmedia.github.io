@@ -8,11 +8,11 @@ body {
     /* background-size: cover; */
 }
 
-nav{
+ul{
     font-family: Dosis;
     text-align: center;
     /* margin-left: 20px; */
-    display: block;   
+    /* display: block; */
 }
 
 section h1,h2,h3{
