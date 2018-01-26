@@ -8,62 +8,27 @@ body {
     /* background-size: cover; */
 }
 
-@font-face {
-    font-family: "Dosis";
-    src: url(https://fonts.google.com/specimen/Dosis?selection.family=Dosis) format("truetype");
+h1,h2,h3{
+    font-family: "Tangerine", Georgia;
+    font-size: 200%;
 }
 
-h1, h2, h3 {
-    /* font-family: Courier New, Courier, monospace; */
-    /* font-family: "Dosis", sans-serif  */
-    color: #ac1c1c;
-    /* background-color: #550000; */
-    text-shadow: aqua;
-    /* border: 5px solid red; */
-    /* cursor: pointer; */
-    
+h3{
+    font-family: "Dosis", sans-serif;
+    font-weight: bolder;
+    /* font-style: Regular; */
+    color: red;
 }
 
-a   {
-    /* color: #a70000; */
-    /* background-color: #550000; */
-    /* text-shadow: aqua; */
-    /* border: 5px solid red; */
-    cursor: pointer;
+a{
+    font-family: "Dosis", sans-serif;
 }
 
-p{
-    color: #550000;
-    /* background-color: #55000002; */
+.yusuf{
+    font-weight: bold;
 }
 
-figcaption{
-    color: brown;
-    text-align: align-self: auto;;
-    font-size: larger;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-li {
-    list-style: none;   /* untuk menghilangkan simbol bulat di list */
-    float: left;
-    padding: 9px;
-    /* padding-right: auto; */
-    display: block;
-    color: white;
-}
-
-li a {
-    color: white;
-}
-
-figure{
-    margin-left: 12px;
+.biyu{
+    font-weight: 900; /* this seems bolder*/
+    /* font-weight: bolder; because this doesnt work */
 }
