@@ -2,24 +2,64 @@
     Property: value;
 } */
 
-h1, h2, {
-    color: rgb(0, 110, 255);
-    background-color: beige;
+body {
+    background-color: #00000010;
+    /* background-image: url(/img/bg1.jpeg) */
+    /* background-size: cover; */
 }
-/* Why it doesnt work? Because it's cascading, it takes the last input as a value
-in this case, h3 is preceding h1 and h2
-} */
-h3 {
-    color: rgb(32, 31, 25);
+
+@font-face {
+    font-family: "Dosis";
+    src: url(https://fonts.google.com/specimen/Dosis?selection.family=Dosis) format("truetype");
+}
+
+h1, h2, h3 {
+    /* font-family: Courier New, Courier, monospace; */
+    /* font-family: "Dosis", sans-serif  */
+    color: #ac1c1c;
+    /* background-color: #550000; */
+    text-shadow: aqua;
+    /* border: 5px solid red; */
+    /* cursor: pointer; */
+    
+}
+
+a   {
+    /* color: #a70000; */
+    /* background-color: #550000; */
+    /* text-shadow: aqua; */
+    /* border: 5px solid red; */
+    cursor: pointer;
 }
 
 p{
-    color: aquamarine;
-    background-color: beige;
+    color: #550000;
+    /* background-color: #55000002; */
 }
 
 figcaption{
     color: brown;
-    text-align: center;
+    text-align: align-self: auto;;
     font-size: larger;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    list-style: none;   /* untuk menghilangkan simbol bulat di list */
+    float: left;
+    padding: 9px;
+    /* padding-right: auto; */
+    display: block;
+    color: white;
+}
+
+li a {
+    color: white;
 }
