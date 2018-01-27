@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Eko Andri</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:Extra-Light,Light,Regular,Medium,Semi-Bold,Bold,Extra-Bold" >
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" >
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:Extra-Light,Light,Regular,Medium,Semi-Bold,Bold,Extra-Bold"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine"/>
 </head>
   
 <body>
     <header>
         <nav>
             <ul>
-                <a href="#home" class="navtop">Home</a>
-                <a href="about.html" class="navtop">About</a>
-                <a href="Register/register.html" class="navtop">Login</a>
+                <a href="#home" class="nav-margin">Home</a>
+                <a href="about.html" class="nav-margin">About</a>
+                <a href="Register/register.html">Login</a>
             </ul>    
         </nav>
     </header>
 
-    <section class="introduction" >
+    <section class="introduction">
         <h1>Hi,</h1>
         <h1>My Name is Eko Andri Subarnanto</h1>
         <h3>And this is my website</h3>
     </section>
 
-    <nav class="media">
-        <a href="yusuf.html">Koleksi Foto Yusuf</a><br>
-        <a href="biyu.html">Koleksi Foto Biyu</a>
-    </nav>
+    <div class="container">
+        <div class="box1">
+            <button onclick="window.location.href='yusuf.html';"
+            >Koleksi Foto Yusuf</button>    
+        </div>
+        <div class="box2">
+            &#x2665
+        </div>
+        <div class="box3">
+            <button onclick="window.location.href='biyu.html';"
+            >Koleksi Foto Biyu</button>
+        </div>   
+    </div>
 
-    <figure class="media">
+    <figure>
         <img src="Photo/Yumna1.JPG" alt="" style="width:100%">
-        <figcaption> Ini foto Yumna</figcaption><br>
+        <figcaption>Ini foto Yumna</figcaption><br>
         <img src="Photo/Yusuf Biyu1.JPG" alt="" style="width:80%">
         <figcaption>Ini foto Yusuf & Biyu kasih makan sapi</figcaption>
     </figure>    
