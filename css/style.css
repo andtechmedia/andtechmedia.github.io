@@ -15,17 +15,19 @@ body{
 }
 
 .introduction{
-    margin: 20px;
+    margin-top: 20px;
     font-family: "Tangerine", Georgia;
     font-size: 230%;
 }
 
-h3{
+.my-website{
     font-family: Dosis;
+    font-weight: normal;
     margin-top: 30px;
     text-decoration: underline;
-    font-weight: bold;
-    color: red;
+    background-color: white;
+    color:grey;
+    padding: 40px;
 }
 
 .container {
