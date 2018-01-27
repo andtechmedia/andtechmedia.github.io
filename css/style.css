@@ -17,10 +17,11 @@ body{
 .introduction{
     margin: 20px;
     font-family: "Tangerine", Georgia;
-    font-size: 250%;
+    font-size: 230%;
 }
 
 h3{
+    font-family: Dosis;
     margin-top: 30px;
     text-decoration: underline;
     font-weight: bold;
