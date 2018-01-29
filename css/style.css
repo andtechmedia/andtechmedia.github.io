@@ -31,23 +31,28 @@ body{
 }
 
 .container {
-    display: grid; 
-    grid-template-columns: 49% 2% 49%;
-    grid-column-gap: 10px;
-    padding: 1em;
-    font-family: Dosis;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    /* display: grid;  */
+    /* grid-template-columns: 49% 2% 49%; */
+    /* grid-column-gap: 10px; */
+    /* padding: 1em; */    
 }
 
-.box1{
-    text-align: right;
+button{
+    margin: 10px 10px;
+    font-family: Dosis;
+    font-size: 16px;
+    height: 50px;
+    width: 100px;
+    
 }
 
 .box2{
+    margin-top: 20px;
+    border: hidden 10px solid red;
     color: red;
-}
-
-.box3{
-    text-align: left;
 }
 
 .main-style{
@@ -64,25 +69,6 @@ body{
 .para-style{
     border: hidden;
     text-align: justify;
-}
-
-article {
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px 15px;
-    h1 {
-        font-size: 32px;
-        color: #ff0000;
-    }
-}
-
-article .other-styling {
-    font-family: Tangerine;
-    padding-bottom: 30px;
-    border-bottom: 4px solid #ccc;
-    /* you will have less classes */
-    h1 {    
-        font-size: 50px;
-    }
 }
   
 figcaption{
