@@ -8,7 +8,7 @@ body{
 }
 
 @font-face{
-    font-family: 'Aclonica';
+    font-family: MyAclonica;
     src: local('Aclonica'),
     url('./font/Aclonica-Regular.ttf') format('ttf';)
 }
