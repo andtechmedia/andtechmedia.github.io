@@ -14,4 +14,6 @@ body{
 
 footer{
     font-family: MyArvo;
+    font-style: italic;
+    font-weight: bold;
 }
