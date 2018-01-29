@@ -8,11 +8,10 @@ body{
 }
 
 @font-face{
-    font-family: MyAclonica;
-    src: local('Aclonica'),
-    url('./fonts/Aclonica-Regular.ttf') format('ttf';)
+    font-family: MyArvo;
+    src: url('./fonts/arvo/Arvo-Regular.ttf');
 }
 
 footer{
-    font-family: MyAclonica;
+    font-family: MyArvo;
 }
