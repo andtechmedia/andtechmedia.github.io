@@ -42,6 +42,10 @@ body{
     text-align: right;
 }
 
+.box2{
+    color: red;
+}
+
 .box3{
     text-align: left;
 }
@@ -57,6 +61,30 @@ body{
     max-width: 640px; /* lebar maksimum 640 piksel agar tidak terlalu besar */
 }
 
+.para-style{
+    border: hidden;
+    text-align: justify;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 15px;
+    h1 {
+        font-size: 32px;
+        color: #ff0000;
+    }
+}
+
+article .other-styling {
+    font-family: Tangerine;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #ccc;
+    /* you will have less classes */
+    h1 {    
+        font-size: 50px;
+    }
+}
+  
 figcaption{
     color: brown;
     font-size: 16px;
