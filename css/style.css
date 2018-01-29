@@ -10,7 +10,7 @@ body{
 @font-face{
     font-family: 'Aclonica';
     src: local('Aclonica'), 
-    url('font/Aclonica-Regular.ttf') format(ttf);
+    url('font/Aclonica-Regular.ttf') format('ttf');
 }
 
 footer{
