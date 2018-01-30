@@ -1,0 +1,16 @@
+#page-top{
+    background-color: whitesmoke;
+}
+
+.bg-primary{
+    background-color: rgba(0, 0, 0, 0.692)!important;
+}
+
+.text-primary{
+    color: rgba(185, 160, 122)!important;
+    /* color: rgba(68, 96, 121, 0.801)!important; */
+}
+
+footer{
+    text-align: center;
+}

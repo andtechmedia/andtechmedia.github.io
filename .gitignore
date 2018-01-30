@@ -47,10 +47,4 @@ tes.*
 # Folders #
 ######################
 /.vscode/
-/bootstrap portfolio/bootstrap-4.0.0-dist/
-/creatitve tim portfolio/x_paper_kit_v1.2.2/
-/creatitve tim portfolio/x_awesome_landing_page/
-/creatitve tim portfolio/now-ui-kit-v1.1.0/
-/mashup portfolio/savory
-/startbootstrap portfolio/startbootstrap-resume-gh-pages/
-/startbootstrap portfolio/startbootstrap-freelancer-gh-pages/
+/template/
