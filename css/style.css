@@ -11,6 +11,10 @@
     /* color: rgba(68, 96, 121, 0.801)!important; */
 }
 
+h1{
+    margin: 10px;
+}
+
 footer{
     text-align: center;
 }
