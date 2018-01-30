@@ -43,6 +43,7 @@ Thumbs.db
 # Other files #
 ######################
 tes.*
+node_modules
 
 # Folders #
 ######################
