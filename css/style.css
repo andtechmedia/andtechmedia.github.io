@@ -11,8 +11,13 @@
     /* color: rgba(68, 96, 121, 0.801)!important; */
 }
 
-h1{
+h1, h3{
+    /* font-family: oldstandardtt; */
     margin: 10px;
+}
+
+img{
+    margin: 20px;
 }
 
 footer{

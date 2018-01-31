@@ -1,0 +1,102 @@
+#page-top{
+    background-color: whitesmoke;
+}
+
+.bg-primary{
+    background-color: rgba(0, 0, 0, 0.692)!important;
+}
+
+.text-primary{
+    color: rgba(185, 160, 122)!important;
+    /* color: rgba(68, 96, 121, 0.801)!important; */
+}
+
+@font-face{
+    font-family: Arvo;
+    src: url('../typewolf_google_fonts/arvo/Arvo-Regular.ttf');
+    font-family: Biorhyme;
+    src: url('../typewolf_google_fonts/biorhyme/BioRhyme-Regular.ttf');
+    font-family: Domine;
+    src: url('../typewolf_google_fonts/domine/Domine-Regular.ttf');
+    font-family: Eczar;
+    src: url('../typewolf_google_fonts/eczar/Eczar-Regular.ttf');
+    font-family: Librebaskerville;
+    src: url('../typewolf_google_fonts/librebaskerville/LibreBaskerville-Regular.ttf');
+    font-family: Lora;
+    src: url('../typewolf_google_fonts/lora/Lora-Regular.ttf');
+    font-family: Merriweather;
+    src: url('../typewolf_google_fonts/merriweather/Merriweather-Regular.ttf');
+    font-family: Neuton;
+    src: url('../typewolf_google_fonts/neuton/Neuton-Regular.ttf');
+    font-family: Oldstandardtt;
+    src: url('../typewolf_google_fonts/oldstandardtt/OldStandard-Regular.ttf');
+    font-family: Playfairdisplay;
+    src: url('../typewolf_google_fonts/playfairdisplay/PlayfairDisplay-Regular.ttf');
+    font-family: Robotoslab;
+    src: url('../typewolf_google_fonts/robotoslab/RobotoSlab-Regular.ttf');
+}
+
+
+.arvo1{
+    font-family: Arvo;
+    /* font-style: italic; */
+}
+
+.bioryhme1{
+    font-family: Biorhyme;
+    /* font-style: italic; */
+}
+
+.domine1{
+    font-family: Domine;
+    /* font-style: italic; */
+}
+
+.eczar1{
+    font-family: Eczar;
+    /* font-style: italic; */
+}
+
+.librebaskerville1{
+    font-family: Librebaskerville;
+    /* font-style: italic; */
+}
+
+.lora1{
+    font-family: Lora;
+    /* font-style: italic; */
+}
+
+.merriweather1{
+    font-family: Merriweather;
+    /* font-style: italic; */
+}
+
+.neuton1{
+    font-family: Neuton;
+    /* font-style: italic; */
+}
+
+.oldstandardtt1{
+    font-family: Oldstandardtt;
+    /* font-style: italic; */
+}
+
+.playfairdisplay1{
+    font-family: Playfairdisplay;
+    /* font-style: italic; */
+}
+
+.robotslab1{
+    font-family: Robotslab;
+    /* font-style: italic; */
+}
+
+h1, h3{
+    /* font-family: oldstandardtt; */
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+}
