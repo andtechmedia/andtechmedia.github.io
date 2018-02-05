@@ -43,6 +43,7 @@
     font-family: 'Philosopher';
     color: black;
     text-transform: none;
+    text-decoration: underline;
 }
 
 .mb-3{ /* digunakan pada nama perusahaan*/
