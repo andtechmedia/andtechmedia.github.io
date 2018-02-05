@@ -2,10 +2,6 @@
     background-color: whitesmoke;
 }
 
-.container{
-    padding-left: 0;
-}
-
 @font-face {
     font-family: 'Audiowide';
     src: url('/fonts/Audiowide/Audiowide-Regular.ttf');
@@ -35,15 +31,14 @@
     src: url('/fonts/Quicksand/Quicksand-Medium.ttf');
 }
 
-.mb-5, .my-5 {
-    margin-bottom: 2rem!important;
-    /* margin-bottom: 10px!important; */
-}
-
 .eko{
     font-family: 'Audiowide';
     text-transform: none;
     font-size: 70px;
+}
+
+.container{
+    padding-left: 0;
 }
 
 .nav-item{ /* digunakan pada side bar nav*/
@@ -51,10 +46,42 @@
     font-size: 20px;
 }
 
-.mb-0{ /* digunakan pada job title*/
+.mb-0{ /* digunakan pada job title & heading pertama*/
     font-family: 'Philosopher';
     /* color: black; */
     text-transform: none;
+}
+
+.jack{
+    padding-bottom: 5px;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 2rem!important;
+    /* margin-bottom: 10px!important; */
+}
+
+.ord-a{
+    list-style-type: disc;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px!important;
+}
+
+.mp-bot{
+    margin-bottom: 10px!important;
+}
+
+.mb-5{ /* digunakan pada paragraph / detil */
+    font-family: 'Quicksand';
+    text-transform: none;
+    font-size: 17px;
+    /* color: rgba(8, 94, 165, 0.856); */
+}
+
+.signature{
+    font-family: Pacifico;
+    text-align: right;
 }
 
 .mb-3{ /* digunakan pada nama perusahaan*/
@@ -63,13 +90,6 @@
 
 .td{
     text-decoration: underline;
-}
-
-.mb-5{ /* digunakan pada paragraph / detil */
-    font-family: 'Quicksand';
-    text-transform: none;
-    font-size: 17px;
-    /* color: rgba(8, 94, 165, 0.856); */
 }
 
 .exp{ /* digunakan pada keterangan */
@@ -96,29 +116,10 @@
     margin: 10px;
 }
 
-.jack{
-    padding-bottom: 5px;
-}
-
-.sub-col{
-    font-weight: 900;
-}
-
-.mp-top-bot{
-    margin-bottom: 10px!important;
-}
-
-.ord-a{
-    list-style-type: disc;
-    margin-left: 20px;
-    margin-right: -20px;
-}
-
 .mar-bot{
     margin-bottom: 0!important;
-    margin-left: 0;
-    text-align: justify;
-    /* padding-left: 10px; */
+    /* margin-left: -10px!important; */
+    /* padding-left: 10px;*/
 }
 
 img{
