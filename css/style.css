@@ -2,6 +2,66 @@
     background-color: whitesmoke;
 }
 
+.container{
+    padding-left: 0;
+}
+
+@font-face {
+    font-family: 'Audiowide';
+    src: url('fonts/Audiowide/Audiowide-Regular.ttf');
+}
+}@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('fonts/Philosopher/Philosopher-Regular.ttf');
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand/Quicksand-Regular.ttf');
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 2rem!important;
+    /* margin-bottom: 10px!important; */
+}
+
+.eko{
+    font-family: 'Audiowide';
+    text-transform: none;
+    font-size: 70px;
+}
+
+.nav-item{ /* digunakan pada side bar nav*/
+    font-family: 'Philosopher';
+    font-size: 20px;
+}
+
+.mb-0{ /* digunakan pada job title*/
+    font-family: 'Philosopher';
+    color: black;
+    text-transform: none;
+}
+
+.mb-3{ /* digunakan pada nama perusahaan*/
+    font-family: 'Philosopher';
+}
+
+.mb-5{ /* digunakan pada paragraph / detil */
+    font-family: 'Quicksand';
+    text-transform: none;
+    font-size: 17px;
+    /* color: rgba(8, 94, 165, 0.856); */
+}
+
+.exp{ /* digunakan pada keterangan */
+    font-family: 'Audiowide'!important;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
 .bg-primary{
     background-color: rgba(0, 0, 0, 0.692)!important;
 }
@@ -20,8 +80,37 @@
     margin: 10px;
 }
 
+.jack{
+    padding-bottom: 5px;
+}
+
+.sub-col{
+    font-weight: 900;
+}
+
+.mp-top-bot{
+    margin-bottom: 10px!important;
+}
+
+.ord-a{
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right: -20px;
+}
+
+.mar-bot{
+    margin-bottom: 0!important;
+    margin-left: 0;
+    text-align: justify;
+    /* padding-left: 10px; */
+}
+
 img{
     margin: 20px;
+}
+
+strong{
+    color: rgba(0, 0, 0, 0.75);
 }
 
 footer{
