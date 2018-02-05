@@ -42,10 +42,13 @@ Thumbs.db
 
 # Other files #
 ######################
-tes.*
+tes-font.*
 node_modules
+resume.html
 
 # Folders #
 ######################
 /.vscode/
 /template/
+css/fonts
+resume/

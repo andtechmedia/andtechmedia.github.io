@@ -11,6 +11,11 @@
     /* color: rgba(68, 96, 121, 0.801)!important; */
 }
 
+.navbar-dark{
+    color: aliceblue!important;
+    background-color: rgba(34, 91, 117, 0.473)!important;
+}
+
 .main-margin{
     margin: 10px;
 }
