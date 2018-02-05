@@ -8,19 +8,31 @@
 
 @font-face {
     font-family: 'Audiowide';
-    src: url('fonts/Audiowide/Audiowide-Regular.ttf');
+    src: url('/fonts/Audiowide/Audiowide-Regular.ttf');
 }
 }@font-face {
     font-family: 'Pacifico';
-    src: url('fonts/Pacifico/Pacifico-Regular.ttf');
+    src: url('/fonts/Pacifico/Pacifico-Regular.ttf');
 }
 @font-face {
     font-family: 'Philosopher';
-    src: url('fonts/Philosopher/Philosopher-Regular.ttf');
+    src: url('/fonts/Philosopher/Philosopher-Regular.ttf');
+}
+@font-face {
+    font-family: 'Philosopher Bold';
+    src: url('/fonts/Philosopher/Philosopher-Bold.ttf');
 }
 @font-face {
     font-family: 'Quicksand';
-    src: url('fonts/Quicksand/Quicksand-Regular.ttf');
+    src: url('/fonts/Quicksand/Quicksand-Regular.ttf');
+}
+@font-face {
+    font-family: 'Quicksand Bold';
+    src: url('/fonts/Quicksand/Quicksand-Bold.ttf');
+}
+@font-face {
+    font-family: 'Quicksand Medium';
+    src: url('/fonts/Quicksand/Quicksand-Medium.ttf');
 }
 
 .mb-5, .my-5 {
@@ -41,13 +53,16 @@
 
 .mb-0{ /* digunakan pada job title*/
     font-family: 'Philosopher';
-    color: black;
+    /* color: black; */
     text-transform: none;
-    text-decoration: underline;
 }
 
 .mb-3{ /* digunakan pada nama perusahaan*/
-    font-family: 'Philosopher';
+    font-family: 'Philosopher Bold';
+}
+
+.td{
+    text-decoration: underline;
 }
 
 .mb-5{ /* digunakan pada paragraph / detil */
@@ -111,7 +126,8 @@ img{
 }
 
 strong{
-    color: rgba(0, 0, 0, 0.75);
+    font-family: Quicksand Bold;
+    /* color: rgba(0, 0, 0, 0.65); */
 }
 
 footer{
