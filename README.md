@@ -2,6 +2,10 @@ Portfolio Website on GitHub Pages
 
 How to publish react-app on Github Pages if you already have 'static web' on your User Page, not Project Page.
 
+## Update 1 : the following methode is unproductive
+### 1. It DELETES gitignore and README everytime you deploy your project to gh-pages
+### 2. I'd rather do deploying manually with git command at the moment
+
 Create a folder
 ```
 mkdir my-website
