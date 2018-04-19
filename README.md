@@ -66,3 +66,5 @@ npm run deploy
 Check your github pages setting, and make sure it set to master.
 
 This might be not the elegant solution because you have to go back between your 'root' user folder and react project folder just to ensure that your repository is in sync with github.
+
+And secondly, you have to manually add the README.md file because when you build and deploy the project, npm destroy the builder folder and create a new one.
