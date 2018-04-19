@@ -9,7 +9,7 @@ mkdir my-folder
 cd my-folder
 ```
 
-Then clone your repository to the folder, for example
+Then clone your repository, for example
 ```
 git clone https://github.com/techandmedia/techandmedia.github.io
 ```
