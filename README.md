@@ -1,0 +1,47 @@
+# techandmedia.github.io
+Portfolio Website on GitHub Pages
+
+How to publish react-app on Github Pages if you already have 'static web' on your User Page, not Project Page.
+
+Create a folder on your computer:
+```
+mkdir my-folder
+cd my-folder
+```
+
+Then clone your repository to the folder, for example
+```
+git clone https://github.com/techandmedia/techandmedia.github.io
+```
+    
+Go to that folder, open your package.json and add this:
+```
+"homepage": "https://myusername.github.io",
+```
+
+Example for my website that is a User Page:
+```
+"homepage": "https://techandmedia.github.io/",
+```
+
+Then run this command (chose one):
+```
+npm install --save gh-pages
+yarn add gh-pages
+```
+
+Add the following scripts:
+```
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b master -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+```
+
+Then run:
+```
+npm run deploy
+```
+
+Check your github pages setting, and make sure it set to master.
