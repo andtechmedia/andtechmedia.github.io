@@ -13,8 +13,19 @@ Then clone your repository to the folder, for example
 ```
 git clone https://github.com/techandmedia/techandmedia.github.io
 ```
-    
-Go to that folder, open your package.json and add this:
+
+Create your react app from a template:
+```
+create-react-app mynew-app
+```
+
+Go to the new folder, and test if it run properly (chose one)
+```
+npm start
+yarn start
+```
+
+Open your package.json and add this:
 ```
 "homepage": "https://myusername.github.io",
 ```
