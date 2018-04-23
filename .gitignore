@@ -1,1 +1,3 @@
-/portfolio
+/portfolio/build
+/portfolio/node_modules
+/portfolio/public
